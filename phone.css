@@ -1,0 +1,219 @@
+.phone-products{
+    display: flex;
+    flex-wrap: wrap;
+}
+.laptops{
+    display: flex;
+    flex-wrap: wrap;
+}
+.services{
+    display: flex;
+    flex-wrap: wrap;
+}
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.contact-icon {
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+    height:100px;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.contact-icon a{
+       font-size: 0.6rem;
+       padding: 5px 5px;
+       margin: 3px 3px;
+}
+#name{
+    width: 80%;
+    height:10px;
+    font-size: 0.7rem;
+}
+#number{
+    width: 80%;
+    height: 10px;
+    font-size: 0.7rem;
+}
+#doubt{
+    width: 80%;
+    height: 25px;
+    font-size: 0.85rem;
+}
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    font-size: 0.6rem;
+}
+#nav-placeholder{
+    width:70%;
+    height:25px;
+    font-size: 0.85rem;
+}
+.navbar-icons ul li{
+    overflow: hidden;
+    text-align: center;
+}
+.navbar-icons ul li a{
+    font-size: 0.6rem;
+}
+.home h2{
+    font-size: 2rem;
+}
+.home p1{
+    font-family: 1rem;
+    padding: 10px 10px;
+    margin: 5px 5px;
+    font-family: cursive;
+}
+.home2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#email{
+    width: 80%;
+    height:25px;
+    font-size: 1rem;
+    padding:7px 7px;
+    margin: 5px 5px;
+}
+.trial{
+    width:60%;
+    height: 35px;
+    font-size: 0.85rem;
+    padding:7px 7px;
+    margin: 4px 4px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: yellow;
+}
+.home2-text{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 5px;
+    margin: 3px 3px;
+}
+.home2-text p2{
+    font-size: 0.6rem;
+    width: 100%;
+    height:25px;
+    padding:4px 4px;
+    margin: 4px 4px;
+}
+.home2-text p2 a{
+    font-size: 0.85rem;
+    color: yellow;
+}
+#heading{
+    font-size: 1rem;
+    padding: 7px 7px;
+    margin: 4px 4px;
+    justify-content: center;
+}
+.navigation::before{
+    content: " ";
+    background: url("bg1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top:0px;
+    left:0px;
+    height:250px;
+    z-index: -1;
+    opacity: 0.89
+}
+.home::before{
+    content: " ";
+    background: url("bg2.jpg" );
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top:250px;
+    left:0px;
+    height:400px;
+    z-index: -1;
+    opacity: 0.89
+}
+.phone-products::before{
+    content: " ";
+    background: url("bg3.jpg" );
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top:650px;
+    left:0px;
+    height:650px;
+    z-index: -1;
+    opacity: 0.89;
+}
+.laptops::before{
+    content: " ";
+    background: url("bg9.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top:2100px;
+    left:0px;
+    height:1500px;
+    z-index: -1;
+    opacity: 0.89;
+}
+.contact-heading::before{
+    content: " ";
+    background: url("bg5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top:3600px;
+    left:0px;
+    height:500px;
+    z-index: -1;
+    opacity: 0.89;
+}
+.contact-icon::before{
+    content: " ";
+    background: url("bg6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top:4100px;
+    left:0px;
+    height:400px;
+    z-index: -1;
+    opacity: 0.89;
+}
+.service-heading h1{
+    font-size: 2rem;
+    padding: 7px 7px;
+    margin: 4px 4px;
+}
+
+
+
+
+
